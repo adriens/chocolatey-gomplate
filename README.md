@@ -18,12 +18,6 @@ To install `gomplate` and get an optimal experience on windows, just:
 
 # For developers only section
 
-# Compute `sha256` checksum
-
-```
-certUtil -hashfile tools/gomplate_windows-amd64.exe SHA256
-```
-
 
 ## Build locally
 
@@ -36,12 +30,14 @@ choco install -fdv gomplate.nuspec
 ```
 
 
-## Release check list
+## Release process
 
-
-
-## Deploy to central
-
-```
-choco push gomplate.3.9.0.nupkg --source https://push.chocolatey.org/ -apikey *******
-```
+1. Get the target version
+2. Download the `gomplate_windows-amd64.exe` file to the `tools` directory
+3. Rename `gomplate_windows-amd64.exe` to `gomplate.exe`
+4. Compute the hash : `certUtil -hashfile tools/gomplate_windows-amd64.exe SHA256`
+5. Update `nuspec` with release related stuff
+6. Update `VERIFICATION` with related stuff
+7. Test local install `choco install -fdv gomplate.nuspec`
+8. Test local uninstall `choco uninstall gomplate`
+9. Deploy to central `choco push gomplate.3.9.0.nupkg --source https://push.chocolatey.org/ -apikey ******* `

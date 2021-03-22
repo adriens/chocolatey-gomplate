@@ -6,7 +6,7 @@
     <version>3.9.0</version>
     <authors>Dave Henderson</authors>
     <owners>Adrien SALES</owners>
-    <summary>gomplate is a template renderer which supports a growing list of datasources, such as: JSON.</summary>
+    <summary>gomplate is a template renderer which supports a growing list of datasources, such as JSON but not only.</summary>
     <description><![CDATA[`gomplate` is a template renderer which supports a [growing list of
 datasources](https://docs.gomplate.ca/datasources/), such as:
 
@@ -19,16 +19,16 @@ datasources](https://docs.gomplate.ca/datasources/), such as:
 - [Hashicorp Vault secrets](https://www.hashicorp.com/products/vault/secrets-management)
     ]]></description>
     <projectUrl>https://github.com/hairyhenderson/gomplate</projectUrl>
-    <tags>yaml template json ejson AWS EC2 metadata BoltDB Hashicorp Consul vaule</tags>
+    <tags>yaml template renderer json ejson AWS EC2 metadata BoltDB Hashicorp Consul vaule</tags>
     <licenseUrl>https://github.com/hairyhenderson/gomplate/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.statically.io/gh/adriens/chocolatey-kbld/main/img/CarvelLogo.png</iconUrl>
-    <packageSourceUrl>https://github.com/adriens/chocolatey-ytt</packageSourceUrl>
-    <releaseNotes>https://github.com/vmware-tanzu/carvel-ytt/releases/tag/v0.31.0</releaseNotes>
-    <docsUrl>https://carvel.dev/ytt/docs/latest/</docsUrl>
-    <bugTrackerUrl>https://github.com/vmware-tanzu/carvel-ytt/issues</bugTrackerUrl>
-    <projectSourceUrl>https://github.com/vmware-tanzu/carvel-ytt/</projectSourceUrl>
-    <mailingListUrl>https://github.com/vmware-tanzu/carvel-ytt/discussions/</mailingListUrl>
+    <iconUrl>https://cdn.statically.io/gh/adriens/chocolatey-gomplate/main/gomplate-banner.png</iconUrl>
+    <packageSourceUrl>https://github.com/adriens/chocolatey-gomplate</packageSourceUrl>
+    <releaseNotes>https://github.com/hairyhenderson/gomplate/releases/tag/v3.9.0</releaseNotes>
+    <docsUrl>https://docs.gomplate.ca/</docsUrl>
+    <bugTrackerUrl>https://github.com/hairyhenderson/gomplate/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/hairyhenderson/gomplate/</projectSourceUrl>
+    <mailingListUrl>https://github.com/hairyhenderson/gomplate/discussions</mailingListUrl>
     
   </metadata>
   <files>

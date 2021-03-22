@@ -1,7 +1,7 @@
 ﻿$tools = Split-Path $MyInvocation.MyCommand.Definition
 $content = Join-Path (Split-Path $tools) 'content'
-$bat = Join-Path $content 'ytt.exe'
+$bat = Join-Path $content 'gomplate.exe'
 
 Uninstall-BinFile `
-  -Name 'ytt.exe' `
+  -Name 'gomplate.exe' `
   -Path $bat

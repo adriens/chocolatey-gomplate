@@ -1,9 +1,9 @@
-﻿
-VERIFICATION
+﻿# VERIFICATION
+
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
-Binary file <ytt.exe> comes from the official release page :
+Binary file <gomplate.exe> comes from the official release page :
 
 <https://github.com/hairyhenderson/gomplate/releases/tag/v3.9.0>
 

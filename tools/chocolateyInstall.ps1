@@ -4,11 +4,11 @@ $ErrorActionPreference = 'Stop';
 
 
 $packageArgs = @{
-  packageName   = 'ytt'
+  packageName   = 'gomplate'
   fileType      = 'exe'
-  softwareName  = 'k14s-ytt*'
-  file          = "$toolsDir\ytt.exe"
-  silentArgs    = "--help"
+  softwareName  = 'gomplate*'
+  file          = "$toolsDir\gomplate.exe"
+  silentArgs    = "--version"
   validExitCodes= @(0)
 }
 
@@ -17,6 +17,6 @@ Install-ChocolateyInstallPackage @packageArgs
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
 
-$ytt_exe = Join-Path $package '/tools/ytt.exe'
+$gomplate_exe = Join-Path $package '/tools/gomplate.exe'
 
-Install-BinFile -Name 'ytt' -Path $ytt_exe
+Install-BinFile -Name 'gomplate' -Path $gomplate_exe
