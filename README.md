@@ -8,7 +8,7 @@
 
 # Usage
 
-To install `gomplate` and get an optimal experience on windows, just:
+To install [`gomplate`](https://docs.gomplate.ca/) and get an optimal experience on windows, just:
 
 - [x] Follow classic choco [instructions](https://chocolatey.org/packages/gomplate/) to install/upgrade
 - [x] :newspaper: Follow [gomplate on Twitter](https://twitter.com/gomplate)
