@@ -1,0 +1,14 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Binary file <ytt.exe> comes from the official release page :
+
+<https://github.com/hairyhenderson/gomplate/releases/tag/v3.9.0>
+
+The only included binary is :
+
+7564e02cb35ca6edd0304aaa88c602d1c395a2b6db88c0717a4c4df7c38badcb   ./gomplate_windows-amd64.exe
+
+but renamed from <gomplate_windows-amd64.exe> to <gomplate.exe>.
