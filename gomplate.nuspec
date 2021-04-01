@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>gomplate</id>
-    <title>gomplate</title>
+    <title>Gomplate</title>
     <version>3.9.0</version>
     <authors>Dave Henderson</authors>
     <owners>Adrien SALES</owners>
@@ -17,6 +17,10 @@ datasources](https://docs.gomplate.ca/datasources/), such as:
 - [BoltDB](https://github.com/boltdb/bolt)
 - [Hashicorp Consul](https://www.consul.io/)
 - [Hashicorp Vault secrets](https://www.hashicorp.com/products/vault/secrets-management)
+
+**NB : For an [optimal experience](https://github.com/hairyhenderson/gomplate/issues/1095),
+please use Gomplate on a proper terminal, and [Git Bash](https://community.chocolatey.org/packages/git)
+ is the best option for that. 
     ]]></description>
     <projectUrl>https://github.com/hairyhenderson/gomplate</projectUrl>
     <tags>yaml template renderer json ejson AWS EC2 metadata BoltDB Hashicorp Consul vaule</tags>
