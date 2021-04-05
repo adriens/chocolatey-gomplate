@@ -14,5 +14,7 @@ jobs:
           java-version: 1.8
       - name: Build with Ant
         run: ant -v
-      - name: Run choco command
-        run: choco -help
+      - name: Choco help
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: -h
