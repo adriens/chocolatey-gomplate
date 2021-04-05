@@ -13,4 +13,6 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Ant
-        run: ant -p
+        run: ant -v
+      - name: Run choco command
+        run: choco -help
